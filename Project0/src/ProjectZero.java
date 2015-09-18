@@ -11,6 +11,7 @@ public class ProjectZero {
 			input1 = inputSource.nextInt();
 			input2 = inputSource.nextInt();
 			
+			input 3 = inputSource.nextDouble();
 			result = input1 + input2;
 			System.out.println(result);
 			
