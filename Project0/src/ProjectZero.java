@@ -12,7 +12,7 @@ public class ProjectZero {
 			
 			System.out.println("Enter two numbers.");
 			
-			/*This checks to see if the user inputed two integers or two
+			/**This checks to see if the user inputed two integers or two
 			floating point numbers using if/else statements. A nested try/catch block was used to 
 			catch the exception where an integer was used 
 			*/ 
@@ -39,7 +39,7 @@ public class ProjectZero {
 				}
 			}
 			
-			/*Catches the exception where a user enters a int first and a decimal second.
+			/*Catches the exception where a user enters an int first and a decimal second.
 			 */
 			catch(InputMismatchException e2){
 				System.out.println("Invalid combination of numbers.");
